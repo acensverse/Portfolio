@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      <ThreeScene modelPath="public/images/chibi_Astro_bot_weari_0928204039_refine.glb"/>
+      {/* <ThreeScene modelPath="public/images/chibi_Astro_bot_weari_0928204039_refine.glb"/> */}
     </>
   )
 }
