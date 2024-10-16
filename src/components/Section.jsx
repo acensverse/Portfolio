@@ -26,7 +26,7 @@ const Section = () => {
   return (
     <div>
 
-      <div className="relative text-slate-800 h-12 w-full flex items-center justify-start mt-60 font-bold font-jost text-6xl ">
+      <div className="text-slate-800 dark:text-slate-200 h-12 w-full flex items-center justify-start mt-20 xl:mt-60 font-bold font-jost text-4xl xl:text-6xl ">
       <span className={`absolute transition-opacity duration-1000 ${textIndex === 0 ? 'opacity-100' : 'opacity-0'}`}>
         {phrases[0]}
       </span>
@@ -35,10 +35,11 @@ const Section = () => {
       </span>
       </div>
     
-      <p className='mt-20 text-3xl text-slate-500 font-normal font-mono'> “ If You Don’t Take Risks, You Can’t Create A Future " <br/> - Luffy
+      <p className='mt-10 xl:mt-20 xl:text-3xl text-slate-500 font-normal font-mono'> &ldquo; If you don’t take risks, you can’t create a future &rdquo;
       </p>
+      <p className='xl:ml-[36rem] xl:text-3xl text-slate-500 font-normal font-mono'> - Monkey D. Luffy </p>
 
-      <button className='mt-16 border border-slate-800 rounded-3xl p-6 text-2xl text-white font-mono font-medum bg-[#0a2342]'> Learn More → </button>
+      <button className='mt-5 xl:mt-16 border border-slate-800 rounded-xl xl:rounded-3xl p-3 xl:p-6 text-md xl:text-2xl text-white dark:text-[#0F1020] font-mono font-medum bg-[#0F1020] dark:bg-[#F0F7F4]'> Learn More → </button>
     
     </div>
     

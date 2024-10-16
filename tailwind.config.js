@@ -22,6 +22,8 @@ export default {
   fontFamily: {
     jost: ['Jost', 'sans-serif'],
   },
+
+  darkMode: "class",
   
   plugins: [],
 }

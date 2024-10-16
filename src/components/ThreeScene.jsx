@@ -12,7 +12,7 @@ function Model({ path }) {
 
 function GLBViewer({ modelPath }) {
   return (
-    <div className='absolute mt-[-80rem] ml-[65rem] h-[35rem]'>
+    <div className='absolute mt-[-51rem] xl:mt-[-80rem] ml-[2rem] xl:ml-[65rem] h-[20rem] xl:h-[35rem]'>
       <Canvas style={{  }} camera={{ position: [2.5, 1, 5], fov: 25 }}>
       {/* Add ambient light and directional light */}
       <ambientLight intensity={1.0} />
