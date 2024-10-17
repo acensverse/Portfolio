@@ -5,11 +5,11 @@ import Exp from './Exp'
 
 const Home = () => {
   return (
-    <>
+    <div className='relative z-[10]'>
       <Nav />
       <Section />
       <Exp />
-    </>
+    </div>
     
     
   )

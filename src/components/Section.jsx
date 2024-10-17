@@ -39,7 +39,7 @@ const Section = () => {
       </p>
       <p className='xl:ml-[36rem] xl:text-3xl text-slate-500 font-normal font-mono'> - Monkey D. Luffy </p>
 
-      <button className='mt-5 xl:mt-16 border border-slate-800 rounded-xl xl:rounded-3xl p-3 xl:p-6 text-md xl:text-2xl text-white dark:text-[#0F1020] font-mono font-medum bg-[#0F1020] dark:bg-[#F0F7F4]'> Learn More → </button>
+      <button className='z-[10] mt-5 xl:mt-16 border border-slate-800 rounded-xl xl:rounded-3xl p-3 xl:p-6 text-md xl:text-2xl text-white dark:text-[#0F1020] font-mono font-medum bg-[#0F1020] dark:bg-[#F0F7F4]'> Learn More → </button>
     
     </div>
     

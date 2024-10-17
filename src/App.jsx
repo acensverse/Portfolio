@@ -48,8 +48,8 @@ function App() {
         }`}>
         <RouterProvider router={router} />
         <ThreeScene modelPath="/images/chibi_Astro_bot_weari_0928204039_refine.glb" />
+        <Particle/>
       </div>
-      <Particle/>
     </ThemeProvider>
   )
     

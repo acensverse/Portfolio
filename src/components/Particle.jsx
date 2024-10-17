@@ -29,7 +29,7 @@ const Particle = () => {
       interactivity: {
         events: {
           onClick: {
-            enable: true,
+            enable: false,
             mode: "push", // Add particles on click
           },
           onHover: {
@@ -67,7 +67,7 @@ const Particle = () => {
           speed: 6, // Speed of particle movement
         },
         number: {
-          value: 80,
+          value: 150,
           density: {
             enable: true, // Enable density for particle spread
           },
@@ -95,6 +95,7 @@ const Particle = () => {
   return (
     <Particles
       id="tsparticles"
+      className="z-[-1] top-0 left-0 w-full h-full"
       particlesLoaded={particlesLoaded} // Callback when particles are loaded
       options={options}
     />
