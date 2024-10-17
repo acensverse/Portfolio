@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './components/Home'
 import ThreeScene from './components/ThreeScene'
 import { ThemeProvider } from './context/theme'
+import Particle from './components/Particle'
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
         <RouterProvider router={router} />
         <ThreeScene modelPath="/images/chibi_Astro_bot_weari_0928204039_refine.glb" />
       </div>
+      <Particle/>
     </ThemeProvider>
   )
     
