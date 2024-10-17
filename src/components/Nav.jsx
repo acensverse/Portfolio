@@ -8,7 +8,7 @@ export const Nav = () => {
     <div className='flex justify-between items-center'>
       <img
         className='w-24'
-        src="public/images/logo.png"
+        src="/images/logo.png"
         alt="logo" />
       <ul className='hidden xl:flex justify-center items-center mx-8 text-slate-800 dark:text-slate-200'>
         <li> Home </li>

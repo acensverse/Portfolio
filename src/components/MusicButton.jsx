@@ -1,21 +1,28 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
 const MusicButton = () => {
   const audioRef = useRef(null); // Create a ref for the audio element
+  const [isPlaying, setIsPlaying] = useState(false)
 
-  const playMusic = () => {
+  const toggleMusic = () => {
     if (audioRef.current) {
-      audioRef.current.play(); // Play the audio when button is clicked
-    }
-  };
+      if (isPlaying) {
+        audioRef.current.pause()
+        setIsPlaying(false)
+      } else {
+        audioRef.current.play()
+        setIsPlaying(true)
+      }
+    } 
+  }
 
   return (
     <div>
       <img
         className='w-10 p-2  border border-slate-800 rounded-full dark:bg-white hover:cursor-pointer'
-        src="/images/musical.png"
+        src={isPlaying ? 'images/nomusic.png' : '/images/musical.png'}
         alt="music"
-        onClick={playMusic}
+        onClick={toggleMusic}
       />
       {/* Audio element to play music */}
       <audio ref={audioRef} src="/audio/song.mp3" /> {/* Adjust path as necessary */}
