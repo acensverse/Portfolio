@@ -25,7 +25,7 @@ const MusicButton = () => {
         onClick={toggleMusic}
       />
       {/* Audio element to play music */}
-      <audio ref={audioRef} src="/audio/song.mp3" /> {/* Adjust path as necessary */}
+      <audio ref={audioRef} src="/audio/music.mp3" /> {/* Adjust path as necessary */}
     </div>
   );
 };
